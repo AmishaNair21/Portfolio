@@ -24,7 +24,7 @@ export default function Home() {
     <div className="w-1/2 border-b border-[#5F4793] transform -translate-y-10 flex justify-center items-center overflow-visible">
       <Image src="/cat.svg" width={500} height={500} alt="cat" className="size-20 transform translate-y-[3rem] translate-x-44"/>
     </div>
-    <div className="w-1/2 bg-[#8165C0] " >
+    <div className="w-1/2 h-40 bg-[#8165C0] " >
     <div></div>
       <p className="p-5">
      Myself <span style={{ color: '#FFB0B0' }}>Amisha Nair</span>, an ambitiously lazy coder who has a keen interest in web technologies like Next.js and React.js. 
@@ -34,7 +34,7 @@ export default function Home() {
         <Image src="/paws.svg" width={50} height={50} alt="down arrow" />
       </div>
     </div>
-    <div className="bg-black -z-20 w-1/2 h-60  transform translate-x-3 -translate-y-[8.5rem] ">
+    <div className="bg-black h-40 -z-20 w-1/2   transform translate-x-3 -translate-y-[8.5rem] ">
     </div>
   </div>
 </div>
