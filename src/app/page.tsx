@@ -34,7 +34,7 @@ export default function Home() {
         <Image src="/paws.svg" width={50} height={50} alt="down arrow" />
       </div>
     </div>
-    <div className="bg-black h-40 -z-20 w-1/2   transform translate-x-3 -translate-y-[8.5rem] ">
+    <div className="bg-black h-40 -z-20 w-1/2   transform translate-x-3 -translate-y-[8.9rem] ">
     </div>
   </div>
 </div>
