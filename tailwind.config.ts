@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        'custom': '5px 4px 5px rgba(0, 0, 0, 0.4)'
+      },
       colors: {
         customlavendar : "#8165C0",
         background: "var(--background)",
