@@ -2,14 +2,17 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display:'swap'
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display:'swap'
 });
 
 export const metadata: Metadata = {
@@ -25,12 +28,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/catlogo.png" sizes="50" />
+          {/* Preload critical assets */}
+          <link rel="preload" href="/Adventure.mp3" as="audio" />
+        <link rel="preload" href="/cat.svg" as="image" />
+        <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
+        <link rel="icon" href="/catlogo.png" />
+    
       </head>
-      <body
+  
+    <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+       
         {children}
+     
+    
       </body>
     </html>
   );
