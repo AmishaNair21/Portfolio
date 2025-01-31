@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     extend: {
+    
       dropShadow: {
         'custom': '5px 4px 5px rgba(0, 0, 0, 0.4)'
       },
@@ -16,6 +17,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+   
     },
   },
   plugins: [
