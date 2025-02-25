@@ -28,7 +28,7 @@ const AudioPlayer = () => {
       />
       <button 
         onClick={toggleMusic}
-        className="fixed bottom-4 right-4 z-50 bg-[#5F4793] text-[#FFE5E5] p-2 rounded-full shadow-lg hover:bg-[#8165C0] transition-colors"
+        className="fixed bottom-4 right-4 z-50  text-[#490f35] p-2 rounded-full shadow-lg hover:bg-[#542379] transition-colors"
         aria-label={isPlaying ? "Mute audio" : "Play audio"}
       >
         {isPlaying ? <Volume2 size={24} /> : <VolumeX size={24} />}
