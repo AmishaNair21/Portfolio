@@ -1,4 +1,5 @@
 "use client"
+import Button from '@/components/effects/3d-type-button';
 import SecondSection from '@/components/sections/SecondSection';
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
@@ -31,6 +32,7 @@ export default function Home() {
 
       <Navigation />
       <HeroSection />
+      
      <SecondSection/>
     </main>
   );

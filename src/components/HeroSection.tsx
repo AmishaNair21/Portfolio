@@ -19,7 +19,7 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="w-2/3 md:w-1/2 md:h-40 rounded-md border-b-8 border-r-8 border-l-2 border-t-2 border-[#5F4793] 2xl:h-72 2xl:mt-10 bg-[#8165C0]">
+      <div className="w-2/3 md:w-1/2 md:h-40 rounded-md border-b-8 border-r-8 border-l-2 border-t-2 border-[#5F4793] 2xl:h-72 2xl:mt-10 bg-[#8165C0] ">
         <p className="p-5 2xl:text-4xl 2xl:p-10">
           Myself <span style={{ color: 'pink', fontWeight: 'bold'}}>Amisha Nair</span>, an
           ambitiously lazy coder who has a keen interest in web technologies
