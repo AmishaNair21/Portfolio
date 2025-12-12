@@ -1,6 +1,4 @@
 import React from 'react'
-import DynamicCard from '../cards/DynamicCard'
-import Button from '../effects/3d-type-button'
 
 const SecondSection = () => {
   return (

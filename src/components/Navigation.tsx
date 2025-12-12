@@ -1,6 +1,4 @@
 "use client"
-
-import Link from "next/link";
 import Button from "./effects/3d-type-button";
 
 export default function Navigation() {
